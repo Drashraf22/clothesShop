@@ -1,0 +1,67 @@
+header .bar{
+    display: block;
+}
+header .bar i{
+    font-size: 21px;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+#xmark{
+    display: block;
+    margin: 30px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+header ul{
+    position: fixed;
+    top: 0;
+    right: -300px;
+    bottom: 0;
+    height: 100vh;
+    z-index: 1000;
+    width: 300px;
+    background-color: #E3E6F3;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+}
+header ul.appear{
+    right: 0;
+}
+header ul li:not(:first-child){
+    margin-bottom: 20px;
+}
+
+.banner2 .container{
+    grid-template-columns: 1fr;
+}
+.banner3 .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sign .container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.pro-show .container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.blog-content .container .blog-row{
+    grid-template-columns: 1fr;
+}
+
+.about .about-main{
+    grid-template-columns: 1fr;
+}
+.contact .container{
+    grid-template-columns:1fr;
+}
+
+.contact-form .container{
+    grid-template-columns: 1fr;
+}
